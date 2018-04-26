@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-family: 'Special Elite', cursive;
+  font-family: 'Poller One', cursive;
+}
+
+.newStyle {
+  margin: 10px !important;
+  width: inherit !important;
+}
+
+#image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#search-bar {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 80px;
+  color: white;
+}
+
+h4, h5 {
+  font-size: 15px;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-family: 'Courgette', cursive;
+  font-family: 'Special Elite', cursive;
+}
+
+.hero-img {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+.hidden {
+  display: none;
+}

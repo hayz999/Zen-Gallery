@@ -1,0 +1,15 @@
+describe('Zen Gallery', () => {
+  it('works', () => {
+    cy.visit('https://zengallery-48a6b.firebaseapp.com/')
+    cy.get('h1').should('contain', 'Zen Gallery')
+    cy.get('section').should('have.class', 'hidden')
+    cy.get('button').eq(0).click()
+    cy.get('section').should('not.have.class', 'hidden')
+    cy.get('button').eq(0).click()
+    cy.get('h4').should('not.be.null')
+    cy.get('h5').should('not.be.null')
+    cy.get('input').type('cat')
+    cy.get('button').eq(1).click()
+    cy.get('.newStyle').should('have.length', 24)
+  })
+})
