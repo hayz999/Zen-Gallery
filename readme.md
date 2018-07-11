@@ -1,6 +1,20 @@
 # Zen Gallery 
+![image](screenshot.png)
 
-Link to app [here](zengallery-48a6b.firebaseapp.com)
+Link to app [here](https://zengallery-48a6b.firebaseapp.com/)
+
+## Author
+
+### [Hayley Zulkoski](https://github.com/hayz999)
+##### https://www.linkedin.com/in/hayley-zulkoski-webdev/
+
+## Installation
+
+Run `npm install` to install dependencies.
+
+## Serving
+
+Run `npm start` to serve locally.
 
 ## About
 
